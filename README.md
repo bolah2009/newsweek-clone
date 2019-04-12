@@ -1,8 +1,4 @@
-# newsweek-clone
-PROJECT: USING BOOTSTRAP - Using CSS, html and bootstrap to clone newsweek.com
-
-
-# PROJECT: DESIGN TEARDOWN
+# PROJECT: USING BOOTSTRAP 
 
 This is the seventh project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 * The objective is to try out Twitter’s Bootstrap framework by building a site that actually uses it – [Newsweek](https://www.newsweek.com/)
