@@ -4,7 +4,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: initial;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
 }
 
 /*Mobile screen*/
@@ -13,24 +18,6 @@ a {
     display: none;
 }
 
-.main{
-    margin-top: 45px;
-}
-
-.page-header .site-logo .svg {
-    display: block;
-    width: 132px;
-    height: 20px;
-    fill: white;
-}
-
-.page-header {
-    background-color: red;
-    width: 100%;
-    max-width: 100%;
-    height: 40px;
-    top: 0;
-}
 
 .relative-position{
     position: relative;
@@ -40,6 +27,30 @@ a {
 }
 .absolute-position{
     position: fixed;
+}
+
+
+
+
+.main{
+    margin-top: 45px;
+    padding-top: 20px;
+}
+
+.page-header {
+    background-color: red;
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    top: 0;
+    z-index: 20;
+}
+
+.page-header .site-logo .svg {
+    display: block;
+    width: 132px;
+    height: 20px;
+    fill: white;
 }
 
 .header-middle{
@@ -84,11 +95,138 @@ a {
     right: 0;
 }
 
-
 .header-middle .menu .svg {
     width: 16px;
     height: 16px;
     color: white;
     padding: 12px;
     box-sizing: content-box;
+}
+
+
+.title {
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    color: rgba(3,3,3,0.4);
+}
+
+
+.picture{
+    position: relative;
+}
+
+.fixed-category {
+    display: block;
+    font: bold 17px/16px "Roboto Condensed",sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.article{
+    padding-bottom: 20px;
+}
+
+.article .picture {
+    margin-bottom: 10px
+}
+
+.featured-others  h2 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.more{
+    font: bold 19px/22px "Roboto Condensed",sans-serif;
+    color: #000;
+    margin-top: 16px;
+    border-top: 1px solid #d9d9d9;
+padding: 10px 0;
+}
+
+ a:hover {
+    color: #f72210;
+}
+
+.fetured-story-more{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-top: 1px solid #ddd;
+}
+
+.featured-story-more .article{
+    padding-top: 14px;
+padding-bottom: 14px;
+border-top: 1px solid #ddd;
+}
+
+.featured-story-more .picture {
+    float: left;
+width: 135px;
+margin-right: 15px;
+}
+
+.featured-story-more .heading{
+font-size: 17px;
+line-height: 20px;
+}
+
+
+.featured-story-section .heading {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+
+.sponsored-insight .picture{
+    margin: 0;
+}
+
+.sponsored-insight .info {
+        border: 1px solid #e6e6e6;
+        background-color: #f8f8f8;
+        padding: 20px;
+}
+
+.opinion {
+        font: bold 17px/21px "Roboto Condensed",sans-serif;
+        color: #000;
+        margin-bottom: 30px;
+}
+
+.opinion li {
+    border-top: 1px solid #ddd;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.opinion li:first-of-type {
+    border-top: 0;
+padding-top: 0;
+padding-bottom: 10px;
+}
+
+
+.opinion .image-headshot {
+    width: 63px;
+height: 63px;
+overflow: hidden;
+position: relative;
+margin-right: 15px;
+}
+
+.opinion .author-name {
+    font-size: 14px;
+line-height: 21px;
+color: #555;
+text-transform: uppercase;
+margin-top: 4px;
 }
