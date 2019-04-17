@@ -56,3 +56,23 @@ display: table;
     content: " ";
 display: table;
 }
+
+.arrow::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    background: url("../assets/arrow.svg") center/contain no-repeat;
+}
+
+
+.link  {
+    display: inline-block;
+    padding: 10px 10px 10px 12px;
+    color: #fff;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: #666;
+}
