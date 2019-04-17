@@ -1,17 +1,28 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-border: 0 none;
-list-style: none outside none;
-outline: 0 none;
+    border: 0 none;
+    list-style: none outside none;
+    outline: 0 none;
 }
+
 
 body {
     color: #333;
     font-size: 13px;
     line-height: 18px;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "Genericons";
+    src: url("../assets/font/Genericons.eot") format("embedded-opentype"), url("../assets/font/Genericons.woff") format("woff"), url("../assets/font/Genericons.ttf") format("truetype"), url("../assets/font/Genericons.svg#Genericons") format("svg");
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
 }
 
 ul {
@@ -23,13 +34,20 @@ a {
     color: initial;
 }
 
-iframe, object, img {
+iframe,
+object,
+img {
     max-width: 100%;
     min-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Condensed",sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Condensed", sans-serif;
     margin-bottom: 10px;
     font-weight: 700;
     position: relative;
@@ -41,7 +59,22 @@ h3 {
     line-height: 20px;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+h4 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
     text-decoration: underline #f72210;
     color: initial;
 }
@@ -49,12 +82,12 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 .article::after {
     clear: both;
     content: " ";
-display: table;
+    display: table;
 }
 
 .article::before {
     content: " ";
-display: table;
+    display: table;
 }
 
 .arrow::after {
@@ -67,12 +100,27 @@ display: table;
 }
 
 
-.link  {
+.link {
     display: inline-block;
     padding: 10px 10px 10px 12px;
     color: #fff;
-    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
     background-color: #666;
+}
+
+.icon {
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url("../assets/logo.svg") center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.checkmark::before {
+
+    content: "\f418";
+
 }
