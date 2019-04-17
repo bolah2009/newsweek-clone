@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+border: 0 none;
+list-style: none outside none;
+outline: 0 none;
+}
+
+body {
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+iframe, object, img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    position: relative;
+    color: #000;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    text-decoration: underline #f72210;
+    color: initial;
+}
+
+.article::after {
+    clear: both;
+    content: " ";
+display: table;
+}
+
+.article::before {
+    content: " ";
+display: table;
+}
