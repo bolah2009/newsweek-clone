@@ -430,16 +430,6 @@ a:hover {
     margin-right: 20px;
 }
 
-.checkmark {
-    font-size: 26px;
-    vertical-align: top;
-    text-align: center;
-    font-family: "Genericons";
-    cursor: pointer;
-    display: inline-block;
-    color: #999;
-}
-
 .item.two {
     border-top: 1px solid #d2d2d2;
 }
@@ -462,4 +452,69 @@ border-top: 1px solid #d9d9d9;
 padding: 12px 0;
 font: bold 17px/21px "Roboto Condensed",sans-serif;
 color: rgba(12,11,11,.95);
+}
+
+
+
+.page-footer {
+    border-top: 2px solid #f4f5f6;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.page-footer .site-logo .svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.page-footer .copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.page-footer .social {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.page-footer .social li{
+    margin-right: 10px;
+}
+
+.page-footer .social .icon-font {
+    line-height: 24px;
+    color: #666;
+}
+
+.page-footer .bottom {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+
+.page-footer .bottom li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.page-footer .bottom .label {
+    margin-top: 6px;
+    margin-right: 15px;
+}
+
+.page-footer a:hover {
+    color: #000;
 }
