@@ -40,66 +40,6 @@ a {
     color: #999;
 }
 
-.checkmark::before {
-    content: "\f418";
-}
-
-.facebook::before {
-    content: "\f203";
-}
-
-.facebook:hover {
-    color: #3b5998;
-}
-
-.twitter {
-    font-size: 25px;
-}
-
-.twitter::before {
-    content: "\f202";
-}
-
-.twitter:hover {
-    color: #1da1f2;
-}
-
-.instagram {
-    font-size: 23px;
-}
-
-.instagram::before {
-    content: "\f215";
-}
-
-.instagram:hover {
-    color: #405de6;
-}
-
-.tumbir {
-    font-size: 20px;
-}
-
-.tumbir::before {
-    content: "\f214";
-}
-
-.tumbir:hover {
-    color: #35465c;
-}
-
-.linkedin {
-    font-size: 25px;
-}
-
-.linkedin::before {
-    content: "\f207";
-}
-
-.linkedin:hover {
-    color: #0077b5;
-}
-
 
 
 ul {

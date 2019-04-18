@@ -406,7 +406,7 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.title {
+.subscribe .title {
     color: red;
 }
 
@@ -494,6 +494,66 @@ color: rgba(12,11,11,.95);
     color: #666;
 }
 
+.checkmark::before {
+    content: "\f418";
+}
+
+.facebook::before {
+    content: "\f203";
+}
+
+.social .facebook:hover {
+    color: #3b5998;
+}
+
+.twitter {
+    font-size: 25px;
+}
+
+.twitter::before {
+    content: "\f202";
+}
+
+.social .twitter:hover {
+    color: #1da1f2;
+}
+
+.instagram {
+    font-size: 23px;
+}
+
+.instagram::before {
+    content: "\f215";
+}
+
+.social .instagram:hover {
+    color: #405de6;
+}
+
+.tumbir {
+    font-size: 20px;
+}
+
+.tumbir::before {
+    content: "\f214";
+}
+
+.social .tumbir:hover {
+    color: #35465c;
+}
+
+.linkedin {
+    font-size: 25px;
+}
+
+.linkedin::before {
+    content: "\f207";
+}
+
+.social .linkedin:hover {
+    color: #0077b5;
+}
+
 .page-footer .bottom {
     border-top: 1px solid #d9d9d9;
     padding-top: 6px;
@@ -501,7 +561,6 @@ color: rgba(12,11,11,.95);
     line-height: 15px;
     color: #666;
 }
-
 
 .page-footer .bottom li {
     display: inline-block;
@@ -515,6 +574,13 @@ color: rgba(12,11,11,.95);
     margin-right: 15px;
 }
 
-.page-footer a:hover {
+.page-footer .bottom  a:hover {
     color: #000;
+}
+
+
+@media (min-width:481px) and (max-width:767px){
+    .sub-feature .picture, .lastest-news .picture, .featured-story-more .picture{
+        width:258px
+    }
 }
