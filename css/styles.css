@@ -313,10 +313,7 @@ a:hover {
     margin-right: 7px;
 }
 
-.in-magazine .section-title {
-    margin-top: 30px;
-    border: none;
-}
+
 
 .editor-pick {
     margin-bottom: 20px;
@@ -375,9 +372,6 @@ a:hover {
     font: bold 22px/22px "Roboto Condensed", sans-serif;
 }
 
-.section-pick .article {
-    padding: 0;
-}
 
 .section-pick .article h4 {
     margin-top: 10px;
@@ -453,8 +447,6 @@ padding: 12px 0;
 font: bold 17px/21px "Roboto Condensed",sans-serif;
 color: rgba(12,11,11,.95);
 }
-
-
 
 .page-footer {
     border-top: 2px solid #f4f5f6;
@@ -579,8 +571,43 @@ color: rgba(12,11,11,.95);
 }
 
 
+@media  (max-width:767px){
+    .in-magazine .section-title {
+        margin-top: 30px;
+        border: none;
+    }
+}
+
 @media (min-width:481px) and (max-width:767px){
     .sub-feature .picture, .lastest-news .picture, .featured-story-more .picture{
         width:258px
+    }
+}
+
+@media screen and (min-width: 768px){
+    .in-magazine .section-title {
+        border-bottom: 1px solid #d9d9d9;
+        padding-bottom: 8px;
+    }
+
+    .page-footer .bottom li{
+        border-right: 1px solid #d9d9d9;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .page-footer .bottom li:last-of-type {
+        border-right: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .first-second  .sponsored-insight{
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .item-wrap .item.two {
+        border-top: 0;
     }
 }
