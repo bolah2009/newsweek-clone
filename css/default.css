@@ -9,7 +9,6 @@
     outline: 0 none;
 }
 
-
 body {
     color: #333;
     font-size: 13px;
@@ -39,8 +38,6 @@ a {
     display: inline-block;
     color: #999;
 }
-
-
 
 ul {
     list-style-type: none;
